@@ -7,9 +7,15 @@ app.get('/', (req, res) => {
     res.send('This is the homepage :D ');
 
 });
-
+//second page
 app.get('/about', (req, res) => {
     res.send('This is the about page :D ');
+
+});
+
+//third page
+app.get('/contact', (req, res) => {
+    res.send('This is the contact page :D ');
 
 });
 
